@@ -1,0 +1,28 @@
+.calculator_main {
+  width: 1140px;
+  margin: 0 auto;
+  margin-top: -90px;
+  background: #ffffff;
+  box-shadow: 6px 6px 60px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 30px;
+}
+.calculator_main > h3 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.calculator_box {
+  display: flex;
+  gap: 10px;
+}
+
+.calculator_range,
+.calculator_graph {
+  background: #182d64;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  height: 600px;
+  width: 100%;
+  color: #ffffff;
+}

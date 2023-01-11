@@ -2,6 +2,10 @@
   --primary-color: #182D64;
 }
 
+.primary_color{
+  color: var(--primary-color);
+}
+
 .primary_button {
   background: linear-gradient(118.49deg, #ff6a92 16.02%, #ff5c5d 90.75%);
   box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.12);
