@@ -1,0 +1,23 @@
+.navbar_main{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+.navbar_menu{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    color: var(--primary-color);
+}
+.navbar_buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
