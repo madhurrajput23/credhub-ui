@@ -1,0 +1,25 @@
+.banner_main {
+  height: calc(100vh - 80px);
+  background: #ffeff2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner_text {
+  color: var(--primary-color);
+  font-weight: 900;
+  font-size: 40px;
+  width: 480px;
+}
+.banner_text>span{
+    color: #267DFF;
+}
+
+.banner_img{
+    width: 430px;
+    height: 280px;
+}
+.banner_img>img{
+    width: 100%;
+}
