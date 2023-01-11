@@ -1,0 +1,37 @@
+.loaninfo_main {
+  padding: 60px;
+  background: var(--primary-color);
+}
+.loaninfo_main > h2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.loaninfo_cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.loaninfocard_main {
+  padding: 30px;
+  background: #4e5c7f;
+  border-radius: 12px;
+  color: #ffffff;
+  width: 330px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.loaninfocard_main > img {
+    height: 150px;
+    width: 150px;
+}
+
+.loaninfocard_main > h4 {
+  font-weight: 700;
+  font-size: 20px;
+}
