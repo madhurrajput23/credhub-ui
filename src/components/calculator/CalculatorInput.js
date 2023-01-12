@@ -20,7 +20,14 @@ const CalculatorInput = ({
             type="number"
             value={value}
             onChange={(e) => {
-              setValue(Number(e.target.value));
+              const enteredValue = Number(e.target.value);
+              if (enteredValue < min) {
+                setValue(min);
+              } else if (enteredValue > max) {
+                setValue(max);
+              } else {
+                setValue(Number(e.target.value));
+              }
             }}
           />
           <div className="calculator_input_icon">{inputIcon}</div>
