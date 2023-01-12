@@ -14,6 +14,13 @@
 h3 span {
   font-weight: 700;
 }
+
+.loandocx_box {
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
 .loandocx_img {
   background: #ffffff;
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.05);
@@ -26,11 +33,7 @@ h3 span {
 .loandocx_img > img {
   max-width: 100%;
 }
-.loandocx_box {
-  display: flex;
-  justify-content: space-between;
- 
-}
+
 
 .loandocx_text{
     display: flex;
