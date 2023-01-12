@@ -1,0 +1,55 @@
+.applyprocess_main {
+  width: 100%;
+  padding: 100px;
+  background: linear-gradient(99.1deg, #ddecff 0%, #ffeff2 99.15%);
+}
+.applyprocess_heading {
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 2rem;
+  margin-bottom: 50px;
+  font-weight: 500;
+}
+.applyprocess_heading > span {
+  font-weight: 700;
+}
+
+.applprocess_cardbox_container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.applyprocess_cardbox {
+  width: 160px;
+  height: 200px;
+  background: #ffffff;
+  border: 1.5px solid #ffeff2;
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.applyprocess_card_number {
+  margin-top: -25px;
+  border-radius: 50%;
+  background-color: #ffeff2;
+  width: 50px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  color: #ff5c5d;
+  font-size: 24px;
+  font-weight: 700;
+}
+.applyprocess_card_text {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  font-size: 17px;
+  color: var(--primary-color);
+}
