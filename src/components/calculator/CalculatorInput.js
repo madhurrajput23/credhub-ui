@@ -20,7 +20,7 @@ const CalculatorInput = ({
             type="number"
             value={value}
             onChange={(e) => {
-              setValue(Number(e.target.value));
+              setValue(parseFloat(e.target.value));
             }}
             onBlur={(e) => {
               const enteredValue = e.target.value;
@@ -41,7 +41,7 @@ const CalculatorInput = ({
           max={max}
           value={value}
           onChange={(e) => {
-            setValue(Number(e.target.value));
+            setValue(parseFloat(e.target.value));
           }}
         />
         <div className="calculator_input_range_text">
