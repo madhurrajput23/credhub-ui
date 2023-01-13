@@ -55,7 +55,7 @@ const Calculator = () => {
             title="Loan Amount"
             inputIcon={<BiRupee />}
             min={100000}
-            max={1000000}
+            max={10000000}
             minUi="1L"
             maxUi="1C"
             value={loanAmount}

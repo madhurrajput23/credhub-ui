@@ -20,13 +20,14 @@ const CalculatorInput = ({
             type="number"
             value={value}
             onChange={(e) => {
-              const enteredValue = Number(e.target.value);
+              setValue(Number(e.target.value));
+            }}
+            onBlur={(e) => {
+              const enteredValue = e.target.value;
               if (enteredValue < min) {
                 setValue(min);
               } else if (enteredValue > max) {
                 setValue(max);
-              } else {
-                setValue(Number(e.target.value));
               }
             }}
           />
